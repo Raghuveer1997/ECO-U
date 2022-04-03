@@ -1,0 +1,92 @@
+.container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  border-color: #fbfbfb;
+  border-style: hidden;
+  border-width: 1px;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url('https://sustainable-earth.org/wp-content/uploads/2022/01/fundamentals-org-sustainability.png');
+}
+.textinput {
+  top: 124px;
+  left: 577px;
+  width: 461px;
+  opacity: 1;
+  z-index: 100;
+  position: absolute;
+  font-size: 64px;
+  box-shadow: 5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4;
+  list-style-type: disc;
+  list-style-image: none;
+  list-style-position: outside;
+}
+.text {
+  top: 130px;
+  left: 75px;
+  position: absolute;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+}
+.button {
+  top: 258px;
+  left: 429px;
+  color: #f9f9f9;
+  position: absolute;
+  font-size: 34px;
+  text-decoration: none;
+  background-color: var(--dl-color-success-300);
+}
+.text1 {
+  top: 354px;
+  left: 51px;
+  z-index: 100;
+  position: absolute;
+  font-size: 64px;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  background-color: #ffffff;
+}
+.text2 {
+  top: 400px;
+  left: 432px;
+  z-index: 100;
+  position: absolute;
+  font-size: 30px;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  background-color: #ffffff;
+}
+.text3 {
+  top: 359px;
+  left: 859px;
+  position: absolute;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  background-color: #ffffff;
+}
+.image {
+  top: 553px;
+  flex: 1;
+  left: 468px;
+  width: var(--dl-size-size-medium);
+  height: var(--dl-size-size-medium);
+  position: absolute;
+  object-fit: cover;
+  padding-bottom: 4px;
+}
+.text4 {
+  top: 2px;
+  left: 422px;
+  position: absolute;
+  font-size: 64px;
+  font-style: normal;
+  font-family: Noto Sans;
+  font-weight: 700;
+}
